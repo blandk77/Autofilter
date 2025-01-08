@@ -20,8 +20,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7931367906:AAEdd-I6M-iDekw-jsFYezdi6ZqIB6r
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1705634892').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Itsme123c") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002419933182'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+r0hxxMm4W-s5NzFl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001988109204').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -36,10 +36,10 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002226481922')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002319965297'))
 request_channel = environ.get('REQUEST_CHANNEL', '')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002226481922'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+r0hxxMm4W-s5NzFl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
@@ -68,9 +68,9 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', '')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', '')
-REFER_PICS = (environ.get("REFER_PICS", "0")).split() 
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/1a2e64aee3d4d10edd930.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/1a2e64aee3d4d10edd930.jpg')
+REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/6407f8acfe6d71abf73e1-80a3de4e8ac1dc6fcb.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', '0')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', '0'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
