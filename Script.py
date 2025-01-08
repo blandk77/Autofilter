@@ -115,7 +115,11 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}</b>"""
+    FILE_CAPTION = """<b>{file_name}</b>\n𝙹𝚘𝚒𝚗 𝚘𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕! 
+
+𝙼𝚘𝚟𝚒𝚎𝚜 𝚌𝚑𝚊𝚗𝚗𝚎𝚕:<blockquote><a href='https://t.me/Tamil_Movez'>Latest Tamil Movez</a></b></blockquote>
+
+𝙼𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕:<blockquote><a href='https://t.me/the_tgguy'> Telegram Guy!!</a></b></blockquote>"""
     
 
     ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ  🤡
