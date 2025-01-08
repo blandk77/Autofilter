@@ -38,7 +38,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002226481922')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002319965297'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002363140202')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002226481922'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+r0hxxMm4W-s5NzFl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -68,8 +68,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/1a2e64aee3d4d10edd930.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/1a2e64aee3d4d10edd930.jpg')
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/6407f8acfe6d71abf73e1-80a3de4e8ac1dc6fcb.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', '0')
 REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/6407f8acfe6d71abf73e1-80a3de4e8ac1dc6fcb.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', '0')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', '0'))
